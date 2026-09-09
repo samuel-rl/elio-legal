@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy, Elio</title>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<main>
+  <header>
+    <h1>Privacy policy</h1>
+    <p class="lede">Elio, baby tracking and parent well-being.</p>
+    <p class="meta">Last updated: 9 September 2026 · <a href="../" class="switch">Français</a></p>
+  </header>
+
+
+  <h2>In short</h2>
+  <p>
+    Elio works with no account and no network. By default everything you note
+    stays on your phone, in encrypted storage whose key lives in the device
+    keychain. Nothing is sold and nothing feeds advertising. The features that
+    need the cloud (co-parent sync, milestone photos, the assistant) only come
+    into play when you use them.
+  </p>
+
+  <h2>Who the controller is</h2>
+  <p>
+    Samuel Rodriguez-Lozano, publisher of Elio. For any question, or to exercise
+    your rights: <a href="mailto:samuel.rodriguezlozano.pro@gmail.com">samuel.rodriguezlozano.pro@gmail.com</a>.
+  </p>
+
+  <h2>What data is involved</h2>
+  <ul>
+    <li><strong>Baby</strong>: first name, date of birth, feeds, sleep, diapers, weight and height, milestones and any photos you add.</li>
+    <li><strong>Parent</strong>: mood, mental load, hours slept, and your diary entries.</li>
+    <li><strong>Subscription</strong>: the anonymous purchase identifier from RevenueCat, never your payment details, which we never see.</li>
+    <li><strong>Technical</strong>: an anonymous session identifier, and a count of assistant questions so quotas can be applied.</li>
+  </ul>
+  <p>
+    An infant's health data and a parent's psychological state are sensitive
+    data. They are used only to show you your own tracking and to answer your
+    questions inside the app.
+  </p>
+
+  <h2>Where it is stored</h2>
+  <p>
+    On the device, in an encrypted store (MMKV) whose key is held by the system
+    (iOS keychain, Android Keystore). If you turn on sync or the assistant, the
+    relevant records are copied to our Supabase project, hosted in
+    Ireland, inside the European Union (<code>eu-west-1</code> region) and protected by row-level access
+    rules: your account, and the co-parent you have linked, are the only ones
+    who can read them. Photos go to a private bucket, never a public one.
+  </p>
+
+  <h2>The assistant</h2>
+  <p>
+    When you ask a question, the app assembles a summary of your recent data on
+    the phone (baby's age, last feed, sleep, how you are doing), then sends it
+    with your question to our server, which queries Google's Gemini model. That
+    processing happens in the United States. The model's access key is never
+    present in the app. We keep the number of calls and tokens for billing and
+    quotas, not the content of your conversations.
+  </p>
+
+  <h2>Sharing with a co-parent</h2>
+  <p>
+    An invitation code links two accounts. From then on the baby's tracking is
+    visible to both parents. Your personal diary and your own psychological
+    state are not shared.
+  </p>
+
+  <h2>Who else is involved</h2>
+  <ul>
+    <li><strong>Supabase</strong>: hosting for the database and the photos.</li>
+    <li><strong>Google (Gemini)</strong>: generating the assistant's answers.</li>
+    <li><strong>RevenueCat</strong>: subscription management.</li>
+    <li><strong>Apple and Google</strong>: app distribution and payment processing.</li>
+    <li><strong>Expo</strong>: delivering notifications, if you enable them.</li>
+  </ul>
+  <p>No other recipients, no resale, no advertising networks.</p>
+
+  <h2>On what basis</h2>
+  <p>
+    Your consent for health data and the diary, performance of the contract for
+    the subscription, and our legitimate interest in keeping the service secure
+    for the technical counters. You can withdraw consent at any time by turning
+    off sync or deleting your data.
+  </p>
+
+  <h2>For how long</h2>
+  <p>
+    On the device, until you reset the data from settings or delete the app. In
+    the cloud, until you ask for your account to be deleted. Assistant usage
+    counters are kept for twelve months.
+  </p>
+
+  <h2>Your rights</h2>
+  <p>
+    Access, rectification, erasure, portability, restriction, objection, and
+    withdrawal of consent. Write to <a href="mailto:samuel.rodriguezlozano.pro@gmail.com">samuel.rodriguezlozano.pro@gmail.com</a> and we
+    answer within one month. The app also exports a seven-day summary as a PDF,
+    and a full record of your local data. If our answer does not satisfy you,
+    you can complain to your data protection authority, the CNIL in France.
+  </p>
+
+  <h2>Children</h2>
+  <p>
+    Elio is for adults. The baby's data is entered by a parent or guardian, who
+    consents on their behalf.
+  </p>
+
+  <h2>Changes</h2>
+  <p>
+    Any change will be published here with a new date. Anything significant will
+    also be flagged in the app.
+  </p>
+
+  <footer>
+    Elio · <a href="../../">Legal documents</a>
+  </footer>
+</main>
+</body>
+</html>
